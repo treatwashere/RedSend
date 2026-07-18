@@ -1,29 +1,38 @@
-# utterances 🔮
+# 🔴 RedSend
 
-A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments, wiki pages and more!
+**A lightweight comments widget for any website — powered by GitHub Issues.**
 
-- [Open source](https://github.com/utterance). 🙌
-- No tracking, no ads, always free. 📡🚫
-- No lock-in. All data stored in GitHub issues. 🔓
-- Styled with [Primer](http://primer.style), the css toolkit that powers GitHub. 💅
-- Dark theme. 🌘
-- Lightweight. Vanilla TypeScript. No font downloads, JavaScript frameworks or polyfills for evergreen browsers. 🐦🌲
+Let visitors comment on your site with their GitHub accounts. Every comment is stored as a GitHub Issue comment in a repository you choose. No database, no ads, no tracking — fast, simple, and open.
 
-## how it works
+RedSend is part of the [GitDiscuss](https://github.com/gitdiscuss) family of discussion tools — the Issues-powered sibling of [LeafBall](https://github.com/treatwashere) 🍃.
 
-When Utterances loads, the GitHub [issue search API](https://developer.github.com/v3/search/#search-issues) is used to find the issue associated with the page based on `url`, `pathname` or `title`. If we cannot find an issue that matches the page, no problem, [utterances-bot](https://github.com/utterances-bot) will automatically create an issue the first time someone comments.
+---
 
-To comment, users must authorize the utterances app to post on their behalf using the GitHub [OAuth flow](https://developer.github.com/v3/oauth/#web-application-flow). Alternatively, users can comment on the GitHub issue directly.
+## ✨ Features
 
-## configuration
+- 💬 Comments and replies on any website
+- 🎭 Reactions
+- 🪶 Lightweight — no frameworks, no font downloads, just fast vanilla TypeScript
+- 🔒 No database — all data lives in GitHub Issues
+- 🌗 Dark theme support
+- 🆓 Free and open source
 
-## sites using utterances
+## 🚀 How it works
 
-- Haxe [documentation](https://haxe.org/manual) and [cookbook](https://code.haxe.org/)
-- [sadsloth.net](https://sadsloth.net/)
-- [danyow.net](https://danyow.net)
-- **[and many more...](https://github.com/topics/utterances)**
+1. RedSend finds the GitHub Issue that matches the page
+2. If there isn't one yet, the RedSend bot creates it when the first comment arrives
+3. Visitors sign in with GitHub and comment — everything is saved as real Issue comments you can moderate on GitHub
 
-Are you using utterances? [Add the `utterances` topic on your repo](https://docs.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics)!
+## 🧪 Status
 
-# try it out 👇👇👇
+RedSend is in **private beta** — being built and tested before opening to the world. Watch this repo to follow the journey! 🔴
+
+## 🙏 Credit
+
+RedSend is based on [utterances](https://github.com/utterance/utterances), the brilliant original lightweight comments widget by [Jeremy Danyow](https://github.com/jdanyow). utterances started this whole family of GitHub-powered comment tools — huge thanks and full respect. 🙌
+
+This project keeps the original [MIT license](LICENSE).
+
+---
+
+Made by [treatwashere](https://github.com/treatwashere) 🔴⚽
